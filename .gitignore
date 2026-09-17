@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# VS Code settings
+.vscode/
+
+# PyCharm / IDEs
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Large datasets & models
+# Keep raw data out of git history; provide download links in README instead
+data/*.csv
+data/*.zip
+*.pkl
+*.joblib
+models/
+
+# Log files
+*.log
